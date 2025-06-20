@@ -1,7 +1,8 @@
 name: Feeds Package Test Build
 
 on:
-  pull_request:
+  tags:
+      - "v*.*.*"
 
 jobs:
   build:
