@@ -1,8 +1,9 @@
 name: Check autorelease deprecation
 
 on:
-  tags:
-      - "v*.*.*"
+  push:
+    branches:
+      - main
 
 jobs:
   build:
