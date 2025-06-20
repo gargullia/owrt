@@ -1,8 +1,9 @@
 name: Feeds Package Test Build
 
 on:
-  tags:
-      - "v*.*.*"
+  push:
+    branches:
+      - main
 
 jobs:
   build:
