@@ -1,8 +1,8 @@
 name: Check autorelease deprecation
 
 on:
-  pull_request_target:
-    types: [opened, synchronize, converted_to_draft, ready_for_review, edited]
+  tags:
+      - "v*.*.*"
 
 jobs:
   build:
